@@ -1,17 +1,24 @@
 # YBP Holdings
 This script takes a .CSV file of ISBNS from Alma Analytics and turns it into a single column .TXT file of ISBNS to send to GOBI.
+
 This will allow you to see if you already own an item before ordering it in GOBI.
 
 # How it works
 YBP Holdings uses the isbnlib python library to validate isbn's, this allows you to disregard any pseudo ISBNS or other identification numbers that may be in the ISBN field.
+
 YBP Holdings also takes only the first valid ISBN from each row of ISBNS.
+
 When it finds a valid ISBN, it attempts to convert it to ISBN-13, if it isn't already in that format.
 
 # How to Use
 -Click on YBPHoldings.exe
+
 -Select a CSV file of ISBNS from Alma Analytics. This file must be a single column of data, ISBNS only. Check the "sample_input.csv" file for an example.
+
 -Wait a moment.
+
 -When the process is done, a message will appear: "Done."
+
 -A TXT file called YBP_HOLDINGS.txt" will appear in the same directory as the program.
 
 # Downloading
