@@ -1,0 +1,9 @@
+__dump__
+.venv
+.vscode
+build
+dist
+make.bat
+*.spec
+*.ico
+__pycache__
