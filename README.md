@@ -9,7 +9,7 @@ When it finds a valid ISBN, it attempts to convert it to ISBN-13, if it isn't al
 
 # How to Use
 -Click on YBPHoldings.exe
--Select a CSV file of ISBNS from Alma Analytics. This file must be a single column of data, ISBNS only.
+-Select a CSV file of ISBNS from Alma Analytics. This file must be a single column of data, ISBNS only. Check the "sample_input.csv" file for an example.
 -Wait a moment.
 -When the process is done, a message will appear: "Done."
 -A TXT file called YBP_HOLDINGS.txt" will appear in the same directory as the program.
