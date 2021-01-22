@@ -5,8 +5,7 @@ import csv
 import os
 
 # clean-up old files
-# this calls a windows system command. change as necessary for linux or mac environments
-os.system("del YBP_HOLDINGS.txt")
+os.remove("YBP_HOLDINGS.txt")
 
 # select file
 csv_file_path = eg.fileopenbox(msg='Select .CSV file', 
