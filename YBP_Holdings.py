@@ -5,6 +5,7 @@ import csv
 import os
 
 # clean-up old files
+# this calls a windows system command. change as necessary for linux or mac environments
 os.system("del YBP_HOLDINGS.txt")
 
 # select file
@@ -34,4 +35,5 @@ for row in csv_object:
             break
             
 # finish
+output_file.close()
 eg.msgbox("Done.", "Finished")
